@@ -1,4 +1,7 @@
 voila
 ipywidgets
 sqlalchemy
-
+ipykernel
+jupyter_client
+jupyter_core
+nbformat
