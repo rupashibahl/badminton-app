@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: badminton-app
+    env: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    # Note: Render automatically sets PORT environment variable
+
