@@ -15,5 +15,5 @@ COPY badminton_customer.db* ./
 EXPOSE 10000
 
 # Run Voila (use PORT env var that Render provides)
-CMD sh -c "voila badminton.ipynb --port=\${PORT:-8866} --host=0.0.0.0 --no-browser"
+CMD ["sh", "-c", "voila badminton.ipynb --no-browser --Voila.ip=0.0.0.0 --port=${PORT}"]
 
